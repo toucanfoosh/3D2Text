@@ -1,0 +1,54 @@
+/* Customize the range slider */
+.range {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 100%;
+    height: 4px;
+    background: #ffffff;
+    /* Tailwind color: bg-gray-200 */
+    border-radius: 5px;
+    outline: none;
+    /* overflow: hidden; */
+}
+
+.range::-webkit-slider-runnable-track {
+    width: 100%;
+    height: 4px;
+    border-radius: 15px;
+    background: #ffffff;
+    /* Tailwind color: bg-gray-200 */
+}
+
+.range::-moz-range-track {
+    width: 100%;
+    height: 4px;
+    border-radius: 15px;
+    background: #ffffff;
+    /* Tailwind color: bg-gray-200 */
+}
+
+.range::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 15px;
+    height: 15px;
+    background: #22c55e;
+    /* Tailwind color: bg-green-500 */
+    cursor: pointer;
+    border-radius: 50%;
+    border: 2px solid #ffffff;
+    /* Optional: white border around the thumb */
+    margin-top: -5.5px;
+    /* Align the thumb with the track */
+}
+
+.range::-moz-range-thumb {
+    width: 15px;
+    height: 15px;
+    background: #22c55e;
+    /* Tailwind color: bg-green-500 */
+    cursor: pointer;
+    border-radius: 50%;
+    border: 2px solid #ffffff;
+    /* Optional: white border around the thumb */
+}
