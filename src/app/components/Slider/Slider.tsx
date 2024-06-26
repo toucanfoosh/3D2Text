@@ -59,7 +59,7 @@ const Slider: React.FC = () => {
   }, [isPlaying]);
 
   return (
-    <div className="flex flex-col items-center space-y-4 w-[18rem]">
+    <div className="flex flex-col items-center space-y-4 w-[16rem]">
       <input
         type="range"
         min="-360"
@@ -96,9 +96,9 @@ const Slider: React.FC = () => {
           )}
         </div>
       </div>
-      <div className="flex w-[18rem] justify-between">
+      <div className="flex w-[16rem] justify-between">
         <button
-          className={`ring-2 w-12 h-12 rounded-md flex justify-center items-center ${
+          className={`ring-2 w-14 h-14 rounded-md flex justify-center items-center ${
             isPlaying
               ? "bg-red-500 ring-red-500 "
               : "bg-green-500 ring-green-500 "
@@ -108,7 +108,7 @@ const Slider: React.FC = () => {
           {isPlaying ? "Stop" : "Spin"}
         </button>
         <button
-          className={`ring-2 ring-green-500 w-12 h-12 rounded-md flex justify-center items-center `}
+          className={`ring-2 ring-green-500 w-14 h-14 rounded-md flex justify-center items-center hover:bg-green-500`}
           onClick={() => {
             setValue(() => {
               setInputValue("0");

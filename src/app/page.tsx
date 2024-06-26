@@ -3,18 +3,18 @@ import Description from "./components/Description/Description";
 import Button from "./components/Button/Button";
 import Viewer from "./components/Viewer/Viewer";
 import Slider from "./components/Slider/Slider";
-import { Jost } from "next/font/google";
+import { Courier_Prime } from "next/font/google";
 import { ChangeEvent, useState } from "react";
 
-const jost = Jost({
+const courier = Courier_Prime({
   subsets: ["latin"],
-  weight: "300",
+  weight: "400",
 });
 
 export default function Home() {
   return (
     <div
-      className={`${jost.className} flex flex-col justify-center items-center m-4`}
+      className={`${courier.className} flex flex-col justify-center items-center m-4`}
     >
       <div className="p-8 pb-0 text-5xl">
         <Logo />

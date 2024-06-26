@@ -6,17 +6,18 @@ const roboto = Roboto_Mono({
 });
 
 export default function Viewer() {
+  const dimensions = 32;
   const test: String[][] = [];
-  for (let i = 0; i < 16; i++) {
+  for (let i = 0; i < dimensions; i++) {
     test.push([]);
-    for (let j = 0; j < 16; j++) {
+    for (let j = 0; j < dimensions; j++) {
       test[i].push("w");
     }
   }
 
   return (
     <div
-      className={`${roboto.className} w-[18rem] h-[18rem] ring-2 rounded-md ring-green-500 text-white p-2 grid grid-cols-16 justify-center items-center leading-none`}
+      className={`${roboto.className} w-[${dimensions}rem] h-[${dimensions}rem] ring-2 rounded-md ring-green-500 text-white p-2 grid grid-cols-16 justify-center items-center leading-none`}
     >
       <div>
         {test.map((row, i) => (
