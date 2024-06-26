@@ -1,1 +1,1 @@
-Novel web project to convert 3D models to topological text
+Fun little web project to convert 3D models to topological text
