@@ -43,7 +43,6 @@ const Slider: React.FC = () => {
     }
   };
 
-  // Looping functionality
   useEffect(() => {
     if (isPlaying) {
       const interval = setInterval(() => {
@@ -55,7 +54,7 @@ const Slider: React.FC = () => {
         });
       }, 10); // Adds 1 to the value every 50ms
 
-      return () => clearInterval(interval); // Clean up the interval on component unmount or when isPlaying changes
+      return () => clearInterval(interval);
     }
   }, [isPlaying]);
 
@@ -69,12 +68,12 @@ const Slider: React.FC = () => {
         onChange={handleChange}
         className="range w-full max-w-lg"
       />
-      <div className="flex text-lg font-semibold w-[100%]">
-        <div className="w-[50%] text-end">Value: </div>
+      <div className="flex text-lg font-semibold w-[100%] ps-16">
+        <div className="w-[50%] text-end">Degrees: </div>
         <div className="w-[50%] text-start overflow-visible">
           {isEditing ? (
             <div
-              className="text-lg font-semibold cursor-pointer"
+              className="text-lg font-semibold cursor-pointer flex"
               onClick={() => setIsEditing(true)}
             >
               <input
@@ -110,7 +109,12 @@ const Slider: React.FC = () => {
         </button>
         <button
           className={`ring-2 ring-green-500 w-12 h-12 rounded-md flex justify-center items-center `}
-          onClick={() => setValue(0)}
+          onClick={() => {
+            setValue(() => {
+              setInputValue("0");
+              return 0;
+            });
+          }}
         >
           Reset
         </button>
