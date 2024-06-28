@@ -1,6 +1,6 @@
 export function Navbar() {
   return (
-    <div className="flex justify-between w-[100vw] h-[3rem] p-2">
+    <div className="flex justify-between items-center w-[100vw] h-[3rem] p-2">
       <div
         className="hover:cursor-pointer"
         onClick={() => {

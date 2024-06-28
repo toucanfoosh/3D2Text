@@ -25,7 +25,7 @@ export default function Home() {
     <div>
       {/* Main Body */}
       <div className={`${courier.className} flex flex-col items-center mt-4`}>
-        <div className="p-8 pb-0 text-5xl">
+        <div className="p-[30rem] text-5xl">
           <Logo />
         </div>
         <Description />
