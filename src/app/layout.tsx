@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     siteName: "Daniel Wu",
     images: [
       {
-        url: new URL("https://ibb.co/0fN0ZjG"),
+        url: new URL("https://ibb.co/Gc1ZZJd"),
         alt: 'A black square containing the phrase "3D2Text" with the "3D" being white and the "2Text" being green',
         type: "image/png",
         width: 872,
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     creator: "@toucanfoosh",
     description: "Convert 3D models to topological text",
     images: {
-      url: new URL("https://ibb.co/0fN0ZjG"),
+      url: new URL("https://ibb.co/Gc1ZZJd"),
       alt: 'A black square containing the phrase "3D2Text" with the "3D" being white and the "2Text" being green',
       type: "image/png",
       width: 872,
