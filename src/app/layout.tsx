@@ -26,7 +26,7 @@ export const metadata: Metadata = {
     ],
   },
   twitter: {
-    card: "app",
+    card: "summary",
     creator: "@toucanfoosh",
     description: "Convert 3D models to topological text",
     images: {
