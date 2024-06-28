@@ -17,9 +17,7 @@ export const metadata: Metadata = {
     siteName: "Daniel Wu",
     images: [
       {
-        url: new URL(
-          "https://cdn.discordapp.com/attachments/959320945133248512/1256084821646774414/opengraph-image.png?ex=667f7ba6&is=667e2a26&hm=f9c95ad587accdc2d6116abf4f9d5b54522c41902e9e255560663219c62ae60b&"
-        ),
+        url: new URL("https://ibb.co/0fN0ZjG"),
         alt: 'A black square containing the phrase "3D2Text" with the "3D" being white and the "2Text" being green',
         type: "image/png",
         width: 872,
@@ -32,9 +30,7 @@ export const metadata: Metadata = {
     creator: "@toucanfoosh",
     description: "Convert 3D models to topological text",
     images: {
-      url: new URL(
-        "https://cdn.discordapp.com/attachments/959320945133248512/1256084821646774414/opengraph-image.png?ex=667f7ba6&is=667e2a26&hm=f9c95ad587accdc2d6116abf4f9d5b54522c41902e9e255560663219c62ae60b&"
-      ),
+      url: new URL("https://ibb.co/0fN0ZjG"),
       alt: 'A black square containing the phrase "3D2Text" with the "3D" being white and the "2Text" being green',
       type: "image/png",
       width: 872,
