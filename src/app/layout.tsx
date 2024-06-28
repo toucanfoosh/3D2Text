@@ -28,7 +28,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary",
     creator: "@toucanfoosh",
-    description: "Convert 3D models to topological text",
+    description: "Convert 3D models to 2d text representations",
     images: {
       url: new URL("https://ibb.co/Gc1ZZJd"),
       alt: 'A black square containing the phrase "3D2Text" with the "3D" being white and the "2Text" being green',
