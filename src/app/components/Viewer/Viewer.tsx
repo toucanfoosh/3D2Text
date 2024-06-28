@@ -2,11 +2,6 @@ import { Roboto_Mono } from "next/font/google";
 import { useEffect, useState, useCallback } from "react";
 import { loadFile, setRotation, OBJTopologyProjection } from "./converter";
 
-const roboto = Roboto_Mono({
-  subsets: ["latin"],
-  weight: "400",
-});
-
 interface ViewerProps {
   dimensions: number;
   rotation: number;
@@ -78,7 +73,7 @@ export default function Viewer({
 
   return (
     <div
-      className={`${roboto.className} w-[${dimensions}rem] h-[${dimensions}rem] ring-2 rounded-md ring-green-500 text-white p-2 grid grid-cols-16 justify-center items-center leading-none`}
+      className={`w-[${dimensions}rem] h-[${dimensions}rem] ring-2 rounded-md ring-green-500 text-white p-2 grid grid-cols-16 justify-center items-center leading-none`}
     >
       <div>
         {obj ? (
