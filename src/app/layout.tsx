@@ -6,11 +6,11 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "3D2Text",
-  description: "Convert 3D models to topological text",
+  description: "Convert 3D models to 2d text representations",
   metadataBase: new URL("https://3d2text.com/"),
   openGraph: {
     title: "3D2Text",
-    description: "Convert 3D models to topological text",
+    description: "Convert 3D models to 2d text representations",
     type: "website",
     url: "https://3d2text.com/",
     locale: "en_US",

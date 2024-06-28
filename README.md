@@ -1,4 +1,4 @@
-Fun little web project to convert 3D models to topological text
+Fun little web project to convert 3D models to 2d text representations
 
 Made by Daniel Wu
 https://www.toucanfish.com/
